@@ -37,6 +37,9 @@ The user wants to research how to build a quantitative trading system to help wi
 - Lower frequency trading (daily/weekly rather than intraday)
 - Support for both stock and cryptocurrency markets
 - Suitable for managing a portfolio eventually up to $500K
+- Python preferred but open to other languages if better suited for quant systems
+- Signal delivery via Telegram messages (or email as an alternative)
+- Signals should include confidence levels and supporting data
 
 ## Priorities
 
@@ -48,6 +51,8 @@ The user wants to research how to build a quantitative trading system to help wi
 
 - User's limited trading experience
 - Need for a system that doesn't require constant monitoring (not day trading)
+- Near-term implementation timeline
+- May need to identify appropriate data sources beyond the available financial API
 
 ## Context
 
