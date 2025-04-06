@@ -6,20 +6,51 @@ The user wants to research how to build a quantitative trading system to help wi
 
 ## Key Discussion Points
 
-*To be populated as discussion progresses*
+### User Experience & Background
+- Experienced with programming
+- Limited trading experience (mainly holding ETFs and blue chip assets)
+- Some crypto trading experience with minimal returns
+
+### Markets of Interest
+- Stocks
+- Cryptocurrencies
+
+### Trading Timeframe
+- Not interested in intraday trading
+- Prefers daily/weekly frequency for signals
+- Occasional signals (one to a few times per week) rather than constant trading
+
+### Risk & Capital
+- No specific risk tolerance constraints mentioned
+- Plans to start with a smaller amount to test effectiveness
+- Eventually may want to manage approximately $500K
+
+### Success Criteria
+- Detailed proposal for building the system
+- Documentation of how the system would work
+- Something that could be presented to a PM/engineering team for implementation
+- User is open to different approaches (algorithm, strategic framework, etc.)
 
 ## User Requirements
 
-*To be populated as discussion progresses*
+- Signal-based system (buy/sell alerts) rather than fully automated trading
+- Lower frequency trading (daily/weekly rather than intraday)
+- Support for both stock and cryptocurrency markets
+- Suitable for managing a portfolio eventually up to $500K
 
 ## Priorities
 
-*To be populated as discussion progresses*
+- Creating a comprehensive proposal for implementation
+- Understanding quant trading fundamentals and approaches
+- Developing a system appropriate for someone with programming skills but limited trading experience
 
 ## Constraints
 
-*To be populated as discussion progresses*
+- User's limited trading experience
+- Need for a system that doesn't require constant monitoring (not day trading)
 
 ## Context
 
-*To be populated as discussion progresses*
+- User wants to capitalize on market volatility using quantitative methods
+- Goal is a proposal that could be handed off to developers for implementation
+- User has programming background which could be leveraged for understanding technical aspects
