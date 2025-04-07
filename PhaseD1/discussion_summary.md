@@ -40,6 +40,10 @@ The user wants to research how to build a quantitative trading system to help wi
 - Python preferred but open to other languages if better suited for quant systems
 - Signal delivery via Telegram messages (or email as an alternative)
 - Signals should include confidence levels and supporting data
+- Include trade size recommendations with signals
+- Primary focus on technical analysis with potential integration of fundamental analysis
+- Include reasonable risk assessment metrics
+- Particularly effective for high volatility markets, including downtrend detection
 
 ## Priorities
 
