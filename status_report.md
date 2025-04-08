@@ -32,28 +32,27 @@ Project initiated on 2025-04-06. Completed initial discussion phase, first resea
 
 ## Active Blockers and Challenges
 
-- Need to identify the most suitable backtesting methodology for our specific strategy needs
-- Determining appropriate balance between backtesting speed and realism
-- Establishing which overfitting prevention techniques are most effective
+- Need to identify the most suitable methods to prevent overfitting in backtests
+- Determining appropriate techniques for testing strategies across different market regimes
+- Finding optimal approaches for transaction cost modeling in backtests
 
 ## Immediate Next Actions
 
-- Begin research on methods to prevent overfitting in backtests (Subtask 2.1)
-- Investigate walk-forward optimization techniques (Subtask 2.2)
-- Research approaches for handling transaction costs and slippage in backtests (Subtask 2.3)
+- Begin research on methods to prevent overfitting in backtests
+- Investigate walk-forward optimization techniques
+- Explore approaches for handling transaction costs and slippage
 
 ## Open Questions
 
-- What is the most effective approach to prevent overfitting while maintaining strategy performance?
-- How should backtesting be implemented across different market regimes to ensure robust strategies?
-- What combination of performance metrics provides the most comprehensive view of strategy effectiveness?
-- Which backtesting library would best suit our multi-indicator approach?
+- Which methods are most effective for preventing overfitting while maintaining strategy performance?
+- How can we effectively validate strategy robustness across different market regimes?
+- What is the optimal approach for modeling transaction costs in backtests?
+- How can Monte Carlo simulations be integrated with backtesting for robustness testing?
 
 ## Recent Key Findings
 
-- Backtrader provides superior multi-asset support and optimization tools but with slower performance
-- Zipline offers powerful Pipeline API for factor models but limited multi-asset capabilities
-- PyAlgoTrade is now deprecated despite its simplicity and documentation
-- VectorBT delivers exceptional performance but at the cost of flexibility and a steeper learning curve
-- Event-driven frameworks more closely replicate real trading conditions but at significant performance cost
-- Selection of backtesting approach should consider strategy complexity, universe size, and performance requirements
+- Backtrader is a feature-rich, multi-asset capable, event-driven framework with strong community support
+- Zipline offers powerful Pipeline API but limited multi-asset support and slower performance
+- Event-driven approaches provide realism while vectorized approaches offer superior performance
+- Selection of backtesting approach depends on strategy complexity, universe size, and performance requirements
+- Custom frameworks offer flexibility but require significant development resources and lack community support
