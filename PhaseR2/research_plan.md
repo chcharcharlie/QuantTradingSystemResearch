@@ -24,10 +24,45 @@
     - Zipline is event-driven with strong factor-model support via Pipeline API but limited multi-asset capability
     - PyAlgoTrade offers simplicity but is now deprecated and lacks advanced features
     - Sources: [PyAlgoTrade vs Zipline vs Backtrader Comparison](../resources/resource1.md), [Zipline GitHub](../resources/resource2.md), [PyAlgoTrade GitHub](../resources/resource3.md)
-  - [ ] Subtask 1.2: Evaluate PyAlgoTrade features, advantages, and limitations
-  - [ ] Subtask 1.3: Evaluate Zipline features, advantages, and limitations
-  - [ ] Subtask 1.4: Evaluate custom backtesting frameworks vs. established libraries
-  - [ ] Subtask 1.5: Compare event-driven vs. vectorized backtesting approaches
+  - [x] Subtask 1.2: Evaluate PyAlgoTrade features, advantages, and limitations
+    - ✅ Completed: [2025-04-08 00:30]
+    - Note: This task was completed alongside subtask 1.1 as we found comprehensive information about PyAlgoTrade
+    - Sources: [PyAlgoTrade vs Zipline vs Backtrader Comparison](../resources/resource1.md), [PyAlgoTrade GitHub](../resources/resource3.md)
+  - [x] Subtask 1.3: Evaluate Zipline features, advantages, and limitations
+    - ✅ Completed: [2025-04-08 00:30]
+    - Note: This task was completed alongside subtask 1.1 as we found comprehensive information about Zipline
+    - Sources: [PyAlgoTrade vs Zipline vs Backtrader Comparison](../resources/resource1.md), [Zipline GitHub](../resources/resource2.md)
+  - [x] Subtask 1.4: Evaluate custom backtesting frameworks vs. established libraries
+    - 🔍 [2025-04-08 00:16] Searched: "custom python backtesting framework vs established libraries comparison"
+      - Result 1: Martin Mayer-Krebs - https://mayerkrebs.com/should-you-build-your-own-backtester/ - [Accessed: Yes] - [Page Examined: 2025-04-08 00:16] - [Stored as: resource4.md]
+    - ✅ Completed: [2025-04-08 00:18]
+    - 📊 Summary: 1 search conducted, 1 page examined, 1 resource stored
+    - Found that custom frameworks offer deeper understanding and flexibility but at cost of development time and reliability
+    - Established libraries provide community support, extensive features, bug reduction, and faster development
+    - Custom frameworks are justified mainly for specific requirements, educational purposes, or integration with proprietary systems
+    - Sources: [Custom vs. Established Backtesting Frameworks](../resources/resource4.md)
+  - [x] Subtask 1.5: Compare event-driven vs. vectorized backtesting approaches
+    - 🔍 [2025-04-08 00:19] Searched: "event-driven vs vectorized backtesting approach python comparison performance"
+      - Result 1: Marketcalls - https://www.marketcalls.in/system-trading/comparision-of-event-driven-backtesting-vs-vectorized-backtesting.html - [Accessed: Yes] - [Page Examined: 2025-04-08 00:19] - [Referenced in resource5.md]
+    - 🔍 [2025-04-08 00:20] Searched: "python backtesting libraries event-driven vs vectorized performance comparison backtrader zipline vectorbt"
+      - Result 1: QuantRocket - https://quantrocket.medium.com/why-backtests-run-fast-or-slow-a-comparison-of-zipline-moonshot-and-lean-abab2ff8bd44 - [Accessed: Yes] - [Page Examined: 2025-04-08 00:20] - [Referenced in resource5.md]
+    - ✅ Completed: [2025-04-08 00:21]
+    - 📊 Summary: 2 searches conducted, 2 pages examined, 1 resource created
+    - Found event-driven approach offers higher realism but slower performance
+    - Vectorized approach provides superior speed (5-75x faster) but sacrifices realism and flexibility
+    - Performance gap increases with universe size (minimal for small universes, significant for 1000+ securities)
+    - Sources: [Event-Driven vs. Vectorized Approaches Comparison](../resources/resource5.md)
+
+- [x] Task 1: Research Python Backtesting Libraries
+  - ✅ Completed: [2025-04-08 00:21]
+  - 📊 Summary: All subtasks completed, 7 searches conducted, 7 pages examined, 5 resources stored
+  - Key findings:
+    - Backtrader is a feature-rich, multi-asset capable, event-driven framework with strong community
+    - Zipline offers powerful Pipeline API but limited multi-asset support and slower performance
+    - PyAlgoTrade is simple but now deprecated
+    - Custom frameworks offer flexibility but require significant development resources
+    - Event-driven approaches provide realism while vectorized approaches offer superior performance
+    - Selection depends on strategy complexity, universe size, and performance requirements
 
 - [ ] Task 2: Research Backtesting Methodologies
   - [ ] Subtask 2.1: Investigate methods to prevent overfitting in backtests
