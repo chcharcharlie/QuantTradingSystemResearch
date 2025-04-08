@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-Completed PhaseR1 (Research Phase 1), ready for PhaseD2 (Discussion Phase 2)
+Completed PhaseD2 (Discussion Phase 2), ready for PhaseR2 (Research Phase 2)
 
 ## Project Status
 
@@ -17,9 +17,9 @@ Project initiated on 2025-04-06. Completed initial discussion phase and first re
 
 ## Current In-Progress Activities
 
-- Preparing for Discussion Phase 2 to review research findings
-- Organizing discovered strategies and approaches for user review
-- Planning next research phase focus areas
+- Preparing for Research Phase 2
+- Setting up research structure for backtesting frameworks and methodologies
+- Planning investigation of performance metrics and evaluation criteria
 
 ## Interesting Insights
 
@@ -36,9 +36,9 @@ Project initiated on 2025-04-06. Completed initial discussion phase and first re
 
 ## Immediate Next Actions
 
-- Review research findings with user
-- Determine priorities for next research phase
-- Develop detailed implementation proposal based on user feedback
+- Begin Research Phase 2 focusing on backtesting frameworks and performance metrics
+- Research Python backtesting libraries suitable for our strategy
+- Investigate appropriate performance metrics for strategy evaluation
 
 ## Open Questions
 
