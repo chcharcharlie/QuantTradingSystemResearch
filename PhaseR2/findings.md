@@ -1,3 +1,3 @@
 # PhaseR2 Findings
 
-*This document will be populated with key discoveries and insights from the research phase.*
+*This document will be updated as research progresses.*

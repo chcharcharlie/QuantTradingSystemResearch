@@ -2,24 +2,24 @@
 
 ## Current Phase
 
-Completed PhaseD2 (Discussion Phase 2), ready for PhaseR2 (Research Phase 2)
+Starting PhaseR2 (Research Phase 2)
 
 ## Project Status
 
-Project initiated on 2025-04-06. Completed initial discussion phase and first research phase. Ready to discuss research findings and plan next steps.
+Project initiated on 2025-04-06. Completed initial discussion phase, first research phase, and second discussion phase. Now beginning Research Phase 2 focusing on backtesting frameworks and performance metrics.
 
 ## Recently Completed Activities
 
-- Completed comprehensive research on quantitative trading strategies
-- Evaluated financial data APIs for stocks and cryptocurrencies
-- Researched signal generation systems and position sizing strategies
-- Created detailed findings and phase summary documents
+- Completed PhaseD2 discussion about research findings and next steps
+- Established action items for PhaseR2
+- Formed hypotheses to test in the next research phase
+- Set up research plan for PhaseR2 with detailed tasks
 
 ## Current In-Progress Activities
 
-- Preparing for Research Phase 2
-- Setting up research structure for backtesting frameworks and methodologies
-- Planning investigation of performance metrics and evaluation criteria
+- Beginning Research Phase 2
+- Starting investigation of Python backtesting libraries
+- Preparing to research backtesting methodologies and performance metrics
 
 ## Interesting Insights
 
@@ -30,23 +30,22 @@ Project initiated on 2025-04-06. Completed initial discussion phase and first re
 
 ## Active Blockers and Challenges
 
-- Need to determine which specific implementation approach best fits user's requirements
-- Backtesting methodology needs to be established
-- System architecture decisions pending
+- Need to identify the most suitable backtesting framework for our strategy
+- Determining appropriate performance metrics for strategy evaluation
+- Balancing backtesting accuracy against implementation complexity
 
 ## Immediate Next Actions
 
-- Begin Research Phase 2 focusing on backtesting frameworks and performance metrics
-- Research Python backtesting libraries suitable for our strategy
-- Investigate appropriate performance metrics for strategy evaluation
+- Begin Research Phase 2 tasks
+- Evaluate Python backtesting libraries (Backtrader, PyAlgoTrade, Zipline)
+- Research methods to prevent overfitting in backtests
 
 ## Open Questions
 
-- Which technical indicator combination would be most effective for the specific markets of interest?
-- Should the system prioritize trend-following or include mean-reversion components?
-- What level of automation is desired for the final system?
-- How should backtesting be implemented to validate strategy effectiveness?
-- What specific visualization and reporting features should be included in the alert system?
+- Which backtesting library would best suit our multi-indicator approach?
+- What combination of performance metrics will provide the most comprehensive view of strategy effectiveness?
+- How can we effectively simulate different market regimes in backtests?
+- What's the best approach to handle transaction costs and slippage in backtests?
 
 ## Recent Key Findings
 

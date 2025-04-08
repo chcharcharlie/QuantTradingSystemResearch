@@ -1,3 +1,3 @@
 # PhaseR2 Summary
 
-*This document will contain a comprehensive summary of the research phase once completed.*
+*This document will be completed at the end of the research phase.*
